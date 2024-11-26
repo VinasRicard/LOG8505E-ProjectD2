@@ -49,6 +49,4 @@ Usage
 
 Team Members
 
-Ricard Viñas
-Simsi John
-Tomas Hanzlik	
+Ricard Viñas, Simsi John, Tomas Hanzlik	
