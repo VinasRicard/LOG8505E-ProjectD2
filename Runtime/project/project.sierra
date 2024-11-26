@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sierra:ActivityDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sierra="http://www.example.org/sierra">
+  <specializableelement xsi:type="sierra:Capability" involves="//@specializableelement.1" isImplementedBy="//@containableelement.1"/>
+  <specializableelement xsi:type="sierra:Entity" performs="//@exchangeelement.0" isInvolvedIn="//@specializableelement.0"/>
+  <containableelement xsi:type="sierra:System" supports="//@specializableelement.0"/>
+  <containableelement xsi:type="sierra:Chain" implements="//@specializableelement.0"/>
+  <exchangeelement xsi:type="sierra:Function" isPerformedBy="//@specializableelement.1" hasPort="//@exchangeelement.1 //@exchangeelement.2"/>
+  <exchangeelement xsi:type="sierra:Input" isPortOf2="//@exchangeelement.0"/>
+  <exchangeelement xsi:type="sierra:Output" isPortOf2="//@exchangeelement.0"/>
+</sierra:ActivityDiagram>
