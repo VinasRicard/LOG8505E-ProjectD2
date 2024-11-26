@@ -7,22 +7,22 @@
 This project focuses on designing a **Domain-Specific Modeling Language (DSML)** for the **System Activity Blank Diagram** using **Model-Driven Software Development (MDSD)** principles. The goal is to provide a robust tool that enables users to model and analyze system activities with domain-specific constructs, ensuring consistency and correctness through constraints and validation mechanisms.
 
 ## **Features**
-- **Metamodel Transformation**: 
+**Metamodel Transformation**: 
   - Converted the **OML vocabulary** into an **Ecore-based metamodel**.
   - Defined core concepts: **Capabilities, Actors, Components, Chains, and Exchanges**.
   
-- **OCL Constraints**:
+**OCL Constraints**:
   - Ensured well-formedness of models using **Object Constraint Language (OCL)**.
   - Key rules include:
     - **Irreflexivity**: Elements cannot reference themselves.
     - **Asymmetry**: Prevents circular relationships.
 
-- **Diagram Editor**:
+**Diagram Editor**:
   - Developed using **Eclipse Sirius**.
   - Features a palette for adding and managing diagram elements with a drag-and-drop interface.
   - Real-time validation of constraints.
 
-- **Query Integration**:
+**Query Integration**:
   - Supported queries for retrieving and analyzing model data.
   - Examples include:
     - Listing specialized Capabilities.
