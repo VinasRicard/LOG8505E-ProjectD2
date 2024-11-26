@@ -47,6 +47,6 @@ Usage
 3.	Validate the model for constraint violations.
 4.	Run predefined queries to extract insights from the model.
 
-Team Members
+Team Members (P2)
 
 Ricard Viñas, Simsi John, Tomas Hanzlik	
