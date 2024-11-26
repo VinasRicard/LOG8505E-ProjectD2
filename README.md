@@ -30,9 +30,10 @@ This project focuses on designing a **Domain-Specific Modeling Language (DSML)**
 
 ## **Installation**
 1. Clone the repository:
-'''
-  git clone https://github.com/VinasRicard/LOG8505E-ProjectD2.git
-'''
+```
+git clone https://github.com/VinasRicard/LOG8505E-ProjectD2.git
+```
+  
 
 3.	Import the project into Eclipse IDE with the necessary plugins:
 	•	Eclipse Sirius
