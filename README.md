@@ -13,9 +13,6 @@ This project focuses on designing a **Domain-Specific Modeling Language (DSML)**
   
 **OCL Constraints**:
   - Ensured well-formedness of models using **Object Constraint Language (OCL)**.
-  - Key rules include:
-    - **Irreflexivity**: Elements cannot reference themselves.
-    - **Asymmetry**: Prevents circular relationships.
 
 **Diagram Editor**:
   - Developed using **Eclipse Sirius**.
