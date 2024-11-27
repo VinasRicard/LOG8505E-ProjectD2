@@ -5,115 +5,99 @@
       <metamodel href="http://www.example.org/sierra#/"/>
       <defaultLayer name="Default">
         <nodeMappings name="SpecializableElementNode" label="SpecializableElement" semanticCandidatesExpression="feature:specializableelement" domainClass="sierra.SpecializableElement">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Specializable Element" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="SpecializableElememt" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/gear.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="ContainableElementNode" label="ContainableElement" semanticCandidatesExpression="feature:containableelement" domainClass="sierra.ContainableElement">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Containable Element" labelPosition="node" resizeKind="NSEW" width="8" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="ContainableElement" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/containable.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="CapabilityNode" label="Capability" semanticCandidatesExpression="feature:specializableelement" domainClass="sierra.Capability">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Capability" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Capability" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/tools.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="InvolvableElementNode" label="InvolvableElement" semanticCandidatesExpression="feature:specializableelement" domainClass="sierra.InvolvableElement">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Involvable Element" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="InvolvableElement" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/user.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="ActorNode" label="Actor" semanticCandidatesExpression="feature:specializableelement" domainClass="sierra.Actor">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Actor" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Actor" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/avatar.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="EntityNode" label="Entity" semanticCandidatesExpression="feature:specializableelement" domainClass="sierra.Entity">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Entity" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Entity" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/entity.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="ComponentNode" label="Component" semanticCandidatesExpression="feature:containableelement" domainClass="sierra.Component">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Component" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Component" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/component.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="SystemNode" label="System" semanticCandidatesExpression="feature:containableelement" domainClass="sierra.System">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="System" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="System" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/system.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="PortNode" label="Port" semanticCandidatesExpression="feature:exchangeelement" domainClass="sierra.Port">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Port" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Port" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/plug.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="FunctionNode" label="Function" semanticCandidatesExpression="feature:exchangeelement" domainClass="sierra.Function">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Function" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Function" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/function.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="ExchangeElementNode" label="ExchangeElement" semanticCandidatesExpression="feature:exchangeelement" domainClass="sierra.ExchangeElement">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Exchange Element" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="ExchangeElement" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/circle.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="ExchangeNode" label="Exchange" semanticCandidatesExpression="feature:containableelement" domainClass="sierra.exchange">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Exchange" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Exchange" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/exchange.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="ChainNode" label="Chain" semanticCandidatesExpression="feature:containableelement" domainClass="sierra.Chain">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Chain" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Chain" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/chain.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="InputNode" label="Input" semanticCandidatesExpression="feature:exchangeelement" domainClass="sierra.Input">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Input" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Input" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/input.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="OutputNode" label="Output" semanticCandidatesExpression="feature:exchangeelement" domainClass="sierra.Output">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Output" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="Output" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/output.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="PerformingElementNode" label="PerformingElement" semanticCandidatesExpression="feature:performingelement" domainClass="sierra.PerformingElement">
-          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Specializable Element" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="PerformingElement" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/icons/lightning.svg">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
           </style>
         </nodeMappings>
         <edgeMappings name="SpecializesEdge" label="Specializes" sourceMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SpecializableElementNode']" targetMapping="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SpecializableElementNode']" targetFinderExpression="feature:specializes">
@@ -229,7 +213,7 @@
           </style>
         </edgeMappings>
         <toolSections name="tools">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateCapability" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateCapability" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='CapabilityNode']" iconPath="/icons/gear.svg">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -238,7 +222,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateSystem" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SystemNode']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateSystem" nodeMappings="//@ownedViewpoints[name='DSMLViewpoint']/@ownedRepresentations[name='DSMLDiagram']/@defaultLayer/@nodeMappings[name='SystemNode']" iconPath="/icons/system.svg">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
