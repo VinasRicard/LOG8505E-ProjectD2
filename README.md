@@ -40,9 +40,13 @@ git clone https://github.com/VinasRicard/LOG8505E-ProjectD2.git
 Usage
 
 1.	Open the System Activity Blank Diagram editor in Eclipse.
-2.	Use the palette to create model elements such as Capabilities, Actors, and Components.
-3.	Validate the model for constraint violations.
-4.	Run predefined queries to extract insights from the model.
+2.	Create an Instance of the Model.
+3.	Import our Runtime project.
+4.	Select the Diagram in representation.aird file
+5.	Use the palette to create model elements such as Capabilities, Actors, and Components.
+6.	Use the palette to add edges between the elements.
+7.	Validate the model for constraint violations.
+8.	Run predefined queries to extract insights from the model.
 
 Team Members 
 
