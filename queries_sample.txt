@@ -33,7 +33,7 @@ context Capability inv:
 
 Retrieve all Capabilities specialized by other Capabilities:
 context Capability inv:
-    Capability.allInstances()->select(cap | Capability.allInstances()->exists(otherCap | otherCap.specializes = cap))
+    Capability.allInstances()->select(c | c.specializedBy->notEmpty())
 
 Validate that Components only contain other Components:
 context Component inv:
